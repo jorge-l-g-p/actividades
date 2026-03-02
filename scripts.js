@@ -10,11 +10,11 @@ document.getElementById("registroform").addEventListener("submit", function(e){
 
     console.log("Datos enviados", datos);
 
-    document.getElementById("mensaje").innerText = "Formulario enviado correctamente";
+    document.getElementById("mensaje").innerText = "Envio correcto";
 
     
     document.getElementById("registroform").reset();
     setTimeout(function(){
         mensaje.innerText = "";
-    }, 1000);
+    }, 2000);
 });
