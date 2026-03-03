@@ -17,4 +17,4 @@ document.getElementById("registroform").addEventListener("submit", function(e){
     setTimeout(function(){
         mensaje.innerText = "";
     }, 2000);
-.});
+});
